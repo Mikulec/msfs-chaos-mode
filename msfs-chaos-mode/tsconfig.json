@@ -1,0 +1,17 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./server/bridge-e2e"
+    },
+    {
+      "path": "./server/bridge"
+    },
+    {
+      "path": "./client/chat-ui-e2e"
+    }
+  ],
+  "compilerOptions": {}
+}
